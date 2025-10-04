@@ -1,0 +1,59 @@
+# Ignore Excel autosave and temp files
+~$*.xls*
+*.tmp
+*.bak
+*.xlb
+*.lock
+
+# Ignore Office personalization and cache
+*.exd
+*.suo
+*.lnk
+*.DS_Store
+Thumbs.db
+
+# Ignore VBA editor backups and hidden files
+*.vbaproj.user
+*.vbaProject.bin
+*.vbaProject.otm
+
+# Ignore compiled Access or Excel binaries
+*.accde
+*.accdr
+*.accdt
+*.xla
+*.xlam
+*.xll
+
+# Ignore GitHub and local tooling artifacts
+*.log
+*.cache
+*.orig
+*.rej
+*.swp
+*.idea/
+.vscode/
+*.pyc
+__pycache__/
+
+# Ignore Python virtual environments if used
+venv/
+.env/
+*.env
+
+# Ignore exported documentation or build artifacts
+dist/
+build/
+*.pdf
+*.docx
+
+# Keep exported VBA modules and SQL scripts
+!*.bas
+!*.cls
+!*.frm
+!*.sql
+
+# Keep Excel workbooks
+!*.xlsm
+!*.xlsb
+!*.xlsx
